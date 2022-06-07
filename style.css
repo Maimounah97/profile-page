@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  header{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+    
+  }
+  .logo{
+    color:white;
+  }
+
+nav ul{
+  list-style-type: none;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+nav li {
+  
+  display: inline;
+  
+  margin: 10px;
+}
+.navbarlist a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+.navbarlist a:hover {
+  box-shadow: rgba(223, 221, 221, 0.35) 0px 5px 15px;
+
+}
+button{
+  background-color: rgb(20, 114, 114);
+  color: white;
+  padding: 5px;
+  
+}
+button:hover{
+  box-shadow: rgba(223, 221, 221, 0.35) 0px 5px 15px;
+}
+.sections{
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  height: 750px;
+  
+
+}
+.leftSection , .rightSection{
+  
+  display: flex;
+  height: 550px;
+ flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+}
+
+.card{
+  border: 3px solid gray;
+  
+}
+.personalCardHeader{
+  background-color: rgb(20, 114, 114);
+  height: 30%;
+}
+.leftSection .card{
+  width: 400px;
+}
+.rightSection .card{
+  width: 250px;
+  
+}
+.card .title  {
+  background-color: rgb(60, 59, 59);
+  color: white;
+  padding: 5px;
+  
+}
+.title{
+  display: flex;
+  height: 50px;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  padding: 5px;
+}
+.numOfconnictions , .numOfRequest{
+  background-color: #bbb;
+  border-radius: 50%;
+  padding: 13px;
+  margin: 0px 10px 0px 0px;
+  
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+.avatar{
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin: 5px;
+  padding-right: 5px;
+}
+.conniction{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+  width: 70%;
+}
+.viewMore{
+  padding: 7px;
+  border-top: 3px solid gray;
+  
+}
+.request{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+
+}
+.acceptReq{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  width: 30%;
+}
+.icon{
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+}
+.personal-info{
+  height:360px ;
+}
+.location , .edit{
+  display: flex;
+  justify-content: flex-start;
+  width: 30%;
+}
+ .personal-info .name , .location , .bio , .edit{
+  margin: 10px;
+}
+.personal-info .avatar {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.personalCardAvatar{
+  width: 100px;
+  height: 100px;
+  margin: -50px 20px 0px;
+  padding: 3px;
+  border-radius: 50%;
+  background-color: gray;
+  align-items: center;
+  text-align: center;
+}
+.personal-info .icon{
+  margin-top: -1px;
+}
+.education .title , .education .body{
+  padding-left: 10px;
+}
+.education .body{
+  padding-bottom: 10px;
+}
+.education .body h4 , .education .body h5 ,.education .body p{
+  margin-top: 10px;
+}
